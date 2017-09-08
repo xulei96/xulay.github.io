@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xulay.com/photos/ins.json</loc>
+    <loc>http://xulay.com/photos/2/index.html</loc>
     
-    <lastmod>2017-09-08T06:41:49.773Z</lastmod>
+    <lastmod>2017-09-08T06:52:22.333Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xulay.com/photos/1/index.html</loc>
+    
+    <lastmod>2017-09-08T06:52:21.229Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://xulay.com/photos/index.html</loc>
     
-    <lastmod>2017-09-08T06:32:55.809Z</lastmod>
+    <lastmod>2017-09-08T06:46:41.560Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xulay.com/photos/ins.json</loc>
+    
+    <lastmod>2017-09-08T06:41:49.773Z</lastmod>
     
   </url>
   
