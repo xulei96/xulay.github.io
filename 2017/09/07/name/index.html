@@ -198,15 +198,36 @@
 </a>
         
       </header>
+      <!-- 目录内容 -->
+
+    <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+	<div id="toc-article" class="toc-article">
+	    <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+		<strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！"><span class="toc-number">1.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1"><span class="toc-number">1.1.</span> <span class="toc-text">1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！-1"><span class="toc-number">2.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2"><span class="toc-number">2.1.</span> <span class="toc-text">2</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！-2"><span class="toc-number">3.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3"><span class="toc-number">3.1.</span> <span class="toc-text">3</span></a></li></ol></li></ol>
+         </div>
+   <script type="text/javascript">
+	function showToc(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:block");
+		show_toc_btn.setAttribute("style","display:none");
+		};
+	function showBtn(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:none");
+		show_toc_btn.setAttribute("style","display:block");
+		};
+   </script>
+      
+<!-- 目录内容结束 -->
     
     <div class="article-entry" itemprop="articleBody">
       
-      	
-					<div id="toc" class="toc-article">
-					  <strong class="toc-title">文章目录</strong>
-					  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！"><span class="toc-number">1.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1"><span class="toc-number">1.1.</span> <span class="toc-text">1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！-1"><span class="toc-number">2.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2"><span class="toc-number">2.1.</span> <span class="toc-text">2</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-world，Test！！-2"><span class="toc-number">3.</span> <span class="toc-text">Hello world，Test！！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3"><span class="toc-number">3.1.</span> <span class="toc-text">3</span></a></li></ol></li></ol>
-					</div>
-				
         <h2 id="Hello-world，Test！！"><a href="#Hello-world，Test！！" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><h2 id="Hello-world，Test！！-1"><a href="#Hello-world，Test！！-1" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><h2 id="Hello-world，Test！！-2"><a href="#Hello-world，Test！！-2" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><a id="more"></a>
       
 
@@ -300,6 +321,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2017/09/07/1/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          name
+        
+      </div>
+    </a>
   
   
     <a href="/2017/09/07/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -445,6 +475,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">前端</a>
+              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">日志</a>
