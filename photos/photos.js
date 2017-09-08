@@ -5,7 +5,7 @@ var render = function(page, data){
 		//img += '<img src="http://yourqiniu.url.com/' + data[i] + '">';
 		console.log(data)
 	}
-	console.log(page)
+	alert(1)
 	$(".img-box-ul").append(img);
 	$(".img-box-ul").lazyload();
 	$("a[rel=example_group]").fancybox();
