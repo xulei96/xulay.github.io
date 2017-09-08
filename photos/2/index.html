@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://xulay.com">
   <title>相册 | 徐磊的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
+  <meta name="description" content="返回-我的相册        	     	                  	var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({">
 <meta name="keywords" content="徐磊,xulay,前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="website">
 <meta property="og:title" content="相册">
 <meta property="og:url" content="http://xulay.com/photos/2/index.html">
 <meta property="og:site_name" content="徐磊的博客">
-<meta property="og:description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
+<meta property="og:description" content="返回-我的相册        	     	                  	var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-08T07:46:07.799Z">
+<meta property="og:updated_time" content="2017-09-08T07:50:51.185Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="相册">
-<meta name="twitter:description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
+<meta name="twitter:description" content="返回-我的相册        	     	                  	var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({">
   
     <link rel="alternative" href="/atom.xml" title="徐磊的博客" type="application/atom+xml">
   
@@ -198,35 +198,33 @@
     <div class="article-entry" itemprop="articleBody">
       
       	
-        <script src=/js/crypto-js.js></script><script>
-function doDecrypt(pwd, onError) {
-	console.log("in doDecrypt");
-	var txt = document.getElementById("enc_content").innerHTML;
-	var plantext;
-	try {
-	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
-		plaintext = bytes.toString(CryptoJS.enc.Utf8);
-	} catch(err) {
-		if(onError) {onError(err);}
-		return;
-	}
-	document.getElementById("enc_content").innerHTML = plaintext;
-	document.getElementById("enc_content").style.display = "block";
-   document.getElementById("enc_passwd").style.display = "none";
-}
-</script>
-<div id="enc_content" style="display:none">U2FsdGVkX19U2J9ckz/nmPg/coZkhP5X46zMPfrGhVVFPmQuHCOuIWK6C1RKc6cBu02ZUnoLi82rbF3R1uCxzvHFhRNMihqnOv54pp320coLIxFR3c/P5GzowNuEG01TEj7gOPlyRRp8RsySmhskjnVl7aEQo8a3YT/swX2UPYTEVHOdPEidlRH1i8+MNm3qBGQGdO7ZE0pGNR5pu/eHUxFErmB54DtUdwg6Yh26lFbdtCqFwrpunRHKzJrTYRWKa3xbIR4etHmr+IttTtnMoY0mzpQY2ihsWYyo3imP1rjhwBsu2EAYJfbB97FyGjoKx8YbWecuITCV8zfgP9SbabNYvyhNFGDIjnTCb8xtIRpQ5syhi+BohIla02tYqs/UuXNcrQlYz2+3YapymkNKyHHTz+BuSi3BqcgN9sGjX0Tg5uBMUTsu1DUkoXJ7DjGNFsznIw0tMfMAjDTtiRW3gzjUnNokFftYf2tn5dTu6AfwKJD0n1wlG64Su/cqTxxjNA5gahpHgnxxQFTjkJT5tI4hCzCwiUg8b2pQV6je4eTP2ySjg+pinyUv09Ikq53mdZrKVKTWxchnjgwRfDAdLGpmQeursp/5XbeDiwsdCMbaxE13XbyDIxMpQlTUpZ1+9ATTWTKtj3zLowO7Enb9WgbSrm4f2pjZl7wxMpkjlorIFRAuNpd70BUq/4Gie1EU/IBnFXng6hNSdXqK9iW6XhkmexSh3ViwM23Tb5ZhbX6aqRHbBFSulbhYPlEM9Myjq/xM00AHdCUY7sFdBoWpNHJvQkbvlTSOeLgNv9/yUFecF045tifjwroz/a0d+CxMFHYUmNIXiDAW6LIBtmFin0Ic8iUGssvzKatbVSqcR1T5y5fh3+cxUeDF8IUxqTWTXWZVrGRLmRsuh/vdLUDLyO0PEyUTuDedUBXRRll9H+3MgJbycZ112iC1BgECqPx4b7PsRku/liOr4DV07MmU0UeiV17+oonqxoeZeyXgG/ZlO8pxT5Fe128/EOJaTNsnp2cU+xcKb7NKcGRXT5IMmSIaEEi9BLQZQf0WkS9SaMrfxwLifeH1jagmGdS52dYlO3eqOo7zVKsUgTiB+W9y955b4J4pZaDeSRG1roOI0qxN6PdJB3si6dk+ZGwEa+QdHKQ/TAxJuRmaiUQ6DQiU8o48620K9RZPnQ8z3VtEy1k=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
-<script>
-var onError = function(error) {
-	document.getElementById("enc_error").innerHTML = "password error!"
-};
-function decrypt() {
-var passwd = document.getElementById("enc_pwd_input").value;
-console.log(passwd);
-doDecrypt(passwd, onError);
-}
-</script>
+        <link rel="stylesheet" href="../ins.css">
+<link rel="stylesheet" type="text/css" href="../jquery.fancybox.min.css">
+
+<p><a href="../"><span class="album-font">返回-我的相册</span></a></p>
+
+<div class="instagram">
+    <section class="archives album">
+	    <ul class="img-box-ul">
+	    </ul>
+    </section>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+<script src="https://cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.js"></script>
+<script src="../photos.js"></script>
+
+<script>
+	var that = this;
+	$.getJSON("ins.json", function (data) {
+		that.render(that.page, data);
+	});
+    window.onload=function () {
+    	$("img.lazy").lazyload({effect: "fadeIn"});
+    }
+</script>
+
       
 
       
