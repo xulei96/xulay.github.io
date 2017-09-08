@@ -7,7 +7,7 @@ var render = function(page, data){
 		alert(1)
 			//img += '<img src="http://yourqiniu.url.com/' + data[i] + '">';
 	});
-	img = '<li><div class="img-box">' + '<a class="img-bg " rel="external" data-fancybox="images" href="http://oquhznm5y.bkt.clouddn.com/' + '0001.jpg' + '" target="_blank"></a>' + '<img lazy-src="http://oquhznm5y.bkt.clouddn.com/' + '0001.jpg' + '">'  + '</div></li>';
+	img = '<li><div class="img-box">' + '<a class="img-bg " rel="external" data-fancybox="images" href="http://oquhznm5y.bkt.clouddn.com/' + '0001.jpg' + '" target="_blank"></a>' + '<img class="lazy" data-original="http://oquhznm5y.bkt.clouddn.com/' + '0001.jpg' + '">'  + '</div></li>';
 
 	
 	$(".img-box-ul").append(img);
