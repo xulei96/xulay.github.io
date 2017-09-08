@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xulay.com/"/>
-  <updated>2017-09-08T01:15:10.302Z</updated>
+  <updated>2017-09-08T07:51:36.915Z</updated>
   <id>http://xulay.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://xulay.com/2017/09/07/name/"/>
     <id>http://xulay.com/2017/09/07/name/</id>
     <published>2017-09-07T08:06:21.000Z</published>
-    <updated>2017-09-08T01:15:10.302Z</updated>
+    <updated>2017-09-08T07:51:36.915Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Hello-world，Test！！"><a href="#Hello-world，Test！！" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><h2 id="Hello-world，Test！！-1"><a href="#Hello-world，Test！！-1" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><h2 id="Hello-world，Test！！-2"><a href="#Hello-world，Test！！-2" class="headerlink" title="Hello world，Test！！"></a>Hello world，Test！！</h2><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><a id="more"></a>]]></content>
     
@@ -31,10 +31,10 @@
     
     </summary>
     
-      <category term="日志" scheme="http://xulay.com/categories/%E6%97%A5%E5%BF%97/"/>
+      <category term="随笔" scheme="http://xulay.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="开始" scheme="http://xulay.com/tags/%E5%BC%80%E5%A7%8B/"/>
+      <category term="随笔" scheme="http://xulay.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="日志" scheme="http://xulay.com/tags/%E6%97%A5%E5%BF%97/"/>
     
