@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://xulay.com">
   <title>相册 | 徐磊的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({effect: &quot;">
+  <meta name="description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
 <meta name="keywords" content="徐磊,xulay,前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="website">
 <meta property="og:title" content="相册">
 <meta property="og:url" content="http://xulay.com/photos/2/index.html">
 <meta property="og:site_name" content="徐磊的博客">
-<meta property="og:description" content="var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({effect: &quot;">
+<meta property="og:description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-08T07:06:09.326Z">
+<meta property="og:updated_time" content="2017-09-08T07:20:53.423Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="相册">
-<meta name="twitter:description" content="var that = this; 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).lazyload({effect: &quot;">
+<meta name="twitter:description" content="function doDecrypt(pwd, onError) { 	console.log(&quot;in doDecrypt&quot;); 	var txt = document.getElementById(&quot;enc_content&quot;).innerHTML; 	var plantext; 	try { 	  	var bytes = CryptoJS.AES.decrypt(txt, pwd); 		p">
   
     <link rel="alternative" href="/atom.xml" title="徐磊的博客" type="application/atom+xml">
   
@@ -192,31 +192,35 @@
     <div class="article-entry" itemprop="articleBody">
       
       	
-        <link rel="stylesheet" href="../ins.css">
-<link rel="stylesheet" type="text/css" href="../jquery.fancybox.min.css">
-
-<div class="instagram">
-    <section class="archives album">
-	    <ul class="img-box-ul">
-	    </ul>
-    </section>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
-<script src="https://cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.js"></script>
-<script src="../photos.js"></script>
-
-<script>
-	var that = this;
-	$.getJSON("ins.json", function (data) {
-		that.render(that.page, data);
-	});
-    window.onload=function () {
-    	$("img.lazy").lazyload({effect: "fadeIn"});
-    }
+        <script src=/js/crypto-js.js></script><script>
+function doDecrypt(pwd, onError) {
+	console.log("in doDecrypt");
+	var txt = document.getElementById("enc_content").innerHTML;
+	var plantext;
+	try {
+	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
+		plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {onError(err);}
+		return;
+	}
+	document.getElementById("enc_content").innerHTML = plaintext;
+	document.getElementById("enc_content").style.display = "block";
+   document.getElementById("enc_passwd").style.display = "none";
+}
 </script>
-
+<div id="enc_content" style="display:none">U2FsdGVkX19MeQLlT4QdPTavsC21qqT94UmoPBHfgL6D6rwVg6mRsAHlajPgGNnlmlZ5nt3R17d1UAt/+s87LnzsYeI7xW8vvqMz9tZYVzIumfc1o5B7+5yPRvvAzyTdNay+kVZXmXrFSQ/3cY1lOEhfZ+fzZ6pxeLUQNEXPUZWqZU5UMA6JueX+Zp/u/iwy7GDiGwTWIDi3w558E+4THHf+FR5nB37aiDkrmIXFORQuECCYudl/jeNqg2plTw4bgJCEXIrrZ5CtZ3j4qwd8yQXd252J6EJQZN8sqRYedWq957vEtxm6zNy0tittk4vDodp4c0jip5SbtZ8jMJE3ZsnUcfdYMUF6uZ4v265WuTkr62TJ3LN1/9DN25OnBIZxZ14Fx4TihzyleP38jdfq65keAA0Nki+BeXfQK6HekZhrQzeB8mn9Wqs6aJZuahAutG3D7xTCqD2u+FwAKHrO/0V/wZjs5c5PEVc73nRxhaWa6uJUYlC9GYdeUoQA9Vq5kbdBdQcuy0xNlf3Cg6losF+NNcI006sej+9p4mfi8rDdEHtKs4l1GMKDTLqb76ryeTWvvM0JkBdxaeO521X+ieebPLDmtVGctiCCO2pWHmaWQLLcK9YJTGq3jLBvXd4CzpG+oxwGY0VpGXtbCBFKdm74IW9+EOo0jS7+klBFGzEXhvVzwPeXNpYpkK3YEvWyRHA+UgJFECDVZzePNtlPURejsq9MZ5JtKgrd3VMIGcg5KHYs2klKKP1HI76hU94/l8cB5gB3+U6vkEsm1qD+gTDCriaAopqCmZTgNdjCiUEMvB9b3IBCLbE/3jHmRog7EM9BP1KqclaZlyuL6G5ZhCRcyX8cUm+nDjebbcVQgGhAMcVCsEO+DFKnJwoeViMatP0Rd5/TNoV/ZZXrPaw/NP0oZ3Oxi+x6EB7VyVmi8uvUtY1+0gdhVr3Kz+1WsrwBlaMV9vvZ6sCMH3mVYR3wdEJ1/17kez/kjL3Xyv+8RxI=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
+<script>
+var onError = function(error) {
+	document.getElementById("enc_error").innerHTML = "password error!"
+};
+function decrypt() {
+var passwd = document.getElementById("enc_pwd_input").value;
+console.log(passwd);
+doDecrypt(passwd, onError);
+}
+</script>
+</div>
       
 
       
