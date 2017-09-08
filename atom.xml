@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xulay.com/"/>
-  <updated>2017-09-08T00:53:03.775Z</updated>
+  <updated>2017-09-08T00:55:27.323Z</updated>
   <id>http://xulay.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://xulay.com/2017/09/07/name/"/>
     <id>http://xulay.com/2017/09/07/name/</id>
     <published>2017-09-07T08:06:21.000Z</published>
-    <updated>2017-09-08T00:53:03.775Z</updated>
+    <updated>2017-09-08T00:55:27.323Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello world，Test！！</p>]]></content>
+    <content type="html"><![CDATA[<p>一 Hello world，Test！！<br>二 Hello world，Test！！<br>三 Hello world，Test！！</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Hello world，Test！！&lt;/p&gt;
+        &lt;p&gt;一 Hello world，Test！！&lt;br&gt;二 Hello world，Test！！&lt;br&gt;三 Hello world，Test！！&lt;/p&gt;
 
       
     
