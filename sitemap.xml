@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xulay.com/photos/2/ins.json</loc>
+    
+    <lastmod>2017-09-08T07:06:11.661Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xulay.com/photos/2/index.html</loc>
+    
+    <lastmod>2017-09-08T07:06:09.326Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xulay.com/photos/1/index.html</loc>
     
-    <lastmod>2017-09-08T07:03:32.334Z</lastmod>
+    <lastmod>2017-09-08T07:05:58.068Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xulay.com/photos/1/ins.json</loc>
+    
+    <lastmod>2017-09-08T07:05:37.376Z</lastmod>
     
   </url>
   
@@ -19,20 +40,6 @@
     <loc>http://xulay.com/photos/new_file.html</loc>
     
     <lastmod>2017-09-08T06:56:13.865Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xulay.com/photos/2/index.html</loc>
-    
-    <lastmod>2017-09-08T06:52:22.333Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xulay.com/photos/ins.json</loc>
-    
-    <lastmod>2017-09-08T06:41:49.773Z</lastmod>
     
   </url>
   
