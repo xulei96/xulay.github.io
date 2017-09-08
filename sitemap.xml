@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xulay.com/photos/index.html</loc>
+    
+    <lastmod>2017-09-08T07:08:02.709Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xulay.com/photos/2/ins.json</loc>
     
     <lastmod>2017-09-08T07:06:11.661Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://xulay.com/photos/1/ins.json</loc>
     
     <lastmod>2017-09-08T07:05:37.376Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xulay.com/photos/index.html</loc>
-    
-    <lastmod>2017-09-08T07:00:46.030Z</lastmod>
     
   </url>
   
