@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://xulay.com">
   <title>相册 | 徐磊的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     $(&quot;img.lazy&quot;).lazyload({effect: &quot;fadeIn&quot;});">
+  <meta name="description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).">
 <meta name="keywords" content="徐磊,xulay,前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="website">
 <meta property="og:title" content="相册">
 <meta property="og:url" content="http://xulay.com/photos/index.html">
 <meta property="og:site_name" content="徐磊的博客">
-<meta property="og:description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     $(&quot;img.lazy&quot;).lazyload({effect: &quot;fadeIn&quot;});">
+<meta property="og:description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-08T06:30:23.150Z">
+<meta property="og:updated_time" content="2017-09-08T06:32:55.809Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="相册">
-<meta name="twitter:description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     $(&quot;img.lazy&quot;).lazyload({effect: &quot;fadeIn&quot;});">
+<meta name="twitter:description" content="var that = this; 	console.log(that) 	$.getJSON(&quot;ins.json&quot;, function (data) { 		that.render(that.page, data); 	});     window.onload=function () {     	$(&quot;img.lazy&quot;).">
   
     <link rel="alternative" href="/atom.xml" title="徐磊的博客" type="application/atom+xml">
   
@@ -213,7 +213,9 @@
 	$.getJSON("ins.json", function (data) {
 		that.render(that.page, data);
 	});
-    $("img.lazy").lazyload({effect: "fadeIn"});
+    window.onload=function () {
+    	$("img.lazy").lazyload({effect: "fadeIn"});
+    }
 </script>
 
       
