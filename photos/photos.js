@@ -1,8 +1,8 @@
 var render = function(page, data){
+	alert(1)
 	var img = "";
 	for (var i = 0; i < data.length; i++) {
 		img += '<li><div class="img-box">' + '<a class="img-bg " rel="external" data-fancybox="images" href="http://oquhznm5y.bkt.clouddn.com/' + data[i] + '" target="_blank"></a>' + '<img lazy-src="http://oquhznm5y.bkt.clouddn.com/' + data[i] + '">'  + '</div></li>';
-		alert(1)
 		//img += '<img src="http://yourqiniu.url.com/' + data[i] + '">';
 	}
 	$(".img-box-ul").append(img);
