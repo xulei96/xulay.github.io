@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xulay.com/photos/index.html</loc>
+    
+    <lastmod>2017-09-09T08:38:14.033Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xulay.com/2017/09/09/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E7%9B%B8%E5%86%8C%E7%AF%87/</loc>
     
     <lastmod>2017-09-09T08:15:58.477Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://xulay.com/photos/1/index.html</loc>
     
     <lastmod>2017-09-09T08:09:04.210Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xulay.com/photos/index.html</loc>
-    
-    <lastmod>2017-09-09T08:08:23.540Z</lastmod>
     
   </url>
   
