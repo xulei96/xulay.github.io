@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://xulay.com">
   <title>基于Hexo+GitHub Pages 搭建博客详细教程 | 徐磊的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是云里雾里的。记得几个月前刚接触GitHub（哈哈，对大四来说确实有点晚），对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。">
+  <meta name="description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是挺混乱的，第一次搭建时花了两三天时间去研究才勉强弄好，搭建也就放着没再去写博客，这几天想着继续搭建博客来记录平时自己遇到的问题，于是再次操作了一遍，这次就顺溜多了，在此参照网上的一些教程，总结一下搭建过程。">
 <meta name="keywords" content="徐磊,xulay,前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于Hexo+GitHub Pages 搭建博客详细教程">
 <meta property="og:url" content="http://xulay.com/2017/09/08/基于Hexo-GitHub-Pages-搭建博客详细教程/index.html">
 <meta property="og:site_name" content="徐磊的博客">
-<meta property="og:description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是云里雾里的。记得几个月前刚接触GitHub（哈哈，对大四来说确实有点晚），对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。">
+<meta property="og:description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是挺混乱的，第一次搭建时花了两三天时间去研究才勉强弄好，搭建也就放着没再去写博客，这几天想着继续搭建博客来记录平时自己遇到的问题，于是再次操作了一遍，这次就顺溜多了，在此参照网上的一些教程，总结一下搭建过程。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-08T09:33:49.688Z">
+<meta property="og:updated_time" content="2017-09-09T01:04:26.853Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo+GitHub Pages 搭建博客详细教程">
-<meta name="twitter:description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是云里雾里的。记得几个月前刚接触GitHub（哈哈，对大四来说确实有点晚），对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。">
+<meta name="twitter:description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是挺混乱的，第一次搭建时花了两三天时间去研究才勉强弄好，搭建也就放着没再去写博客，这几天想着继续搭建博客来记录平时自己遇到的问题，于是再次操作了一遍，这次就顺溜多了，在此参照网上的一些教程，总结一下搭建过程。">
   
     <link rel="alternative" href="/atom.xml" title="徐磊的博客" type="application/atom+xml">
   
@@ -64,9 +64,11 @@
 	        
 				<li><a href="/photos">相册</a></li>
 	        
-				<li><a href="/tags/前端/">前端</a></li>
+				<li><a href="/tags/技术/">技术</a></li>
 	        
 				<li><a href="/tags/随笔/">随笔</a></li>
+	        
+				<li><a href="/tags/">归档</a></li>
 	        
 			</ul>
 		</nav>
@@ -136,6 +138,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -162,13 +166,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/photos">相册</a></li>
+					<li style="width: 20%"><a href="/photos">相册</a></li>
 		        
-					<li style="width: 25%"><a href="/tags/前端/">前端</a></li>
+					<li style="width: 20%"><a href="/tags/技术/">技术</a></li>
 		        
-					<li style="width: 25%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 20%"><a href="/tags/随笔/">随笔</a></li>
+		        
+					<li style="width: 20%"><a href="/tags/">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -230,14 +236,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。<br>作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是云里雾里的。记得几个月前刚接触GitHub（哈哈，对大四来说确实有点晚），对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。<br><a id="more"></a></p>
-<h2 id="一、-前言"><a href="#一、-前言" class="headerlink" title="一、 前言"></a>一、 前言</h2><p>这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。<br>作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是云里雾里的。记得几个月前刚接触GitHub（哈哈，对大四来说确实有点晚），对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。<br>后来的两三个月里，开始逐渐地把日常的学习都迁移到GitHub上进行，慢慢熟悉了Git的版本控制。之后，因为嫌弃csdn和博客园的样子（颜值控），最终又回归到搭建独立博客的光明大道上。<br>我所总结的是单纯地利用GitHub Pages搭建自己独立博客的过程，并没有额外使用独立域名之类的（谁让我现在还没工资 o(^▽^)o ）。<br>如果是小小白，可以先花时间去了解下：</p>
+        <p>这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。<br>作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是挺混乱的，第一次搭建时花了两三天时间去研究才勉强弄好，搭建也就放着没再去写博客，这几天想着继续搭建博客来记录平时自己遇到的问题，于是再次操作了一遍，这次就顺溜多了，在此参照网上的一些教程，总结一下搭建过程。<br><a id="more"></a></p>
+<h2 id="一、-前言"><a href="#一、-前言" class="headerlink" title="一、 前言"></a>一、 前言</h2><p>我这篇教程，可能与网上搜到的其他教程略有不同，我在搭建时也遇到过完全按照一个教程来搭建时碰到问题的，所以我就把我成功搭建的流程写下来。<br>如果是小小白，可以先花时间去了解下：</p>
 <ul>
 <li><a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">Git</a></li>
-<li><a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">Git</a></li>
-<li><a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">Git</a></li>
-<li><a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">Git</a><h2 id="二、-必要配置"><a href="#二、-必要配置" class="headerlink" title="二、 必要配置"></a>二、 必要配置</h2><h3 id="2-1-GitHub-Pages-仓库"><a href="#2-1-GitHub-Pages-仓库" class="headerlink" title="2.1 GitHub Pages 仓库"></a>2.1 GitHub Pages 仓库</h3><h4 id="2-1-1-创建对应仓库"><a href="#2-1-1-创建对应仓库" class="headerlink" title="2.1.1 创建对应仓库"></a>2.1.1 创建对应仓库</h4>在自己的GitHub账号下创建一个新的仓库，命名为username.github.io（username是你的账号名)。<br>在这里，要知道，GitHub Pages有两种类型：User/Organization Pages 和 Project Pages，而我所使用的是User Pages。<br>简单来说，User Pages 与 Project Pages的区别是：</li>
+<li><a href="https://github.com/" target="_blank" rel="external">GitHub</a></li>
+<li><a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a></li>
+<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></li>
+<li><a href="http://www.appinn.com/markdown/#autoescape" target="_blank" rel="external">Markdown</a></li>
 </ul>
+<h2 id="二、-必要配置"><a href="#二、-必要配置" class="headerlink" title="二、 必要配置"></a>二、 必要配置</h2><h3 id="2-1-GitHub-Pages-仓库"><a href="#2-1-GitHub-Pages-仓库" class="headerlink" title="2.1 GitHub Pages 仓库"></a>2.1 GitHub Pages 仓库</h3><h4 id="2-1-1-创建对应仓库"><a href="#2-1-1-创建对应仓库" class="headerlink" title="2.1.1 创建对应仓库"></a>2.1.1 创建对应仓库</h4><p>在自己的GitHub账号下创建一个新的仓库，命名为username.github.io（username是你的账号名)。<br>在这里，要知道，GitHub Pages有两种类型：User/Organization Pages 和 Project Pages，而我所使用的是User Pages。<br>简单来说，User Pages 与 Project Pages的区别是：</p>
 <ol>
 <li>User Pages 是用来展示用户的，而 Project Pages 是用来展示项目的。</li>
 <li>用于存放 User Pages 的仓库必须使用username.github.io的命名规则，而 Project Pages 则没有特殊的要求。</li>
