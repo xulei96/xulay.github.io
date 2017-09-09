@@ -12,4 +12,4 @@
     margin: 10px 0;
 }*/
 
-.section-service-w{display: none!important;}
+#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w, #SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w, #SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w a{display: none!important;}
