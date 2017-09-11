@@ -5,9 +5,9 @@
   <subtitle>也许路上偶尔会有风</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xulay.com/"/>
+  <link href="http://blog.xulay.com/"/>
   <updated>2017-09-09T08:15:58.477Z</updated>
-  <id>http://xulay.com/</id>
+  <id>http://blog.xulay.com/</id>
   
   <author>
     <name>xulay</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo个人博客搭建--相册篇</title>
-    <link href="http://xulay.com/2017/09/09/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E7%9B%B8%E5%86%8C%E7%AF%87/"/>
-    <id>http://xulay.com/2017/09/09/Hexo个人博客搭建-相册篇/</id>
+    <link href="http://blog.xulay.com/2017/09/09/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E7%9B%B8%E5%86%8C%E7%AF%87/"/>
+    <id>http://blog.xulay.com/2017/09/09/Hexo个人博客搭建-相册篇/</id>
     <published>2017-09-09T07:26:52.000Z</published>
     <updated>2017-09-09T08:15:58.477Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://xulay.com/categories/hexo/"/>
+      <category term="hexo" scheme="http://blog.xulay.com/categories/hexo/"/>
     
     
-      <category term="技术" scheme="http://xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://blog.xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Hexo主题-yilia优化</title>
-    <link href="http://xulay.com/2017/09/09/Hexo%E4%B8%BB%E9%A2%98-yilia%E4%BC%98%E5%8C%96/"/>
-    <id>http://xulay.com/2017/09/09/Hexo主题-yilia优化/</id>
+    <link href="http://blog.xulay.com/2017/09/09/Hexo%E4%B8%BB%E9%A2%98-yilia%E4%BC%98%E5%8C%96/"/>
+    <id>http://blog.xulay.com/2017/09/09/Hexo主题-yilia优化/</id>
     <published>2017-09-09T06:44:19.000Z</published>
     <updated>2017-09-09T08:14:52.869Z</updated>
     
@@ -56,19 +56,19 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://xulay.com/categories/hexo/"/>
+      <category term="hexo" scheme="http://blog.xulay.com/categories/hexo/"/>
     
-      <category term="yilia" scheme="http://xulay.com/categories/hexo/yilia/"/>
+      <category term="yilia" scheme="http://blog.xulay.com/categories/hexo/yilia/"/>
     
     
-      <category term="技术" scheme="http://xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://blog.xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>基于Hexo+GitHub Pages 搭建博客详细教程</title>
-    <link href="http://xulay.com/2017/09/08/%E5%9F%BA%E4%BA%8EHexo-GitHub-Pages-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/"/>
-    <id>http://xulay.com/2017/09/08/基于Hexo-GitHub-Pages-搭建博客详细教程/</id>
+    <link href="http://blog.xulay.com/2017/09/08/%E5%9F%BA%E4%BA%8EHexo-GitHub-Pages-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xulay.com/2017/09/08/基于Hexo-GitHub-Pages-搭建博客详细教程/</id>
     <published>2017-09-08T08:58:03.000Z</published>
     <updated>2017-09-09T05:18:40.906Z</updated>
     
@@ -80,21 +80,21 @@
     
     </summary>
     
-      <category term="教程" scheme="http://xulay.com/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://blog.xulay.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="博客" scheme="http://xulay.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="http://blog.xulay.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="hexo" scheme="http://xulay.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/hexo/"/>
+      <category term="hexo" scheme="http://blog.xulay.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/hexo/"/>
     
     
-      <category term="技术" scheme="http://xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://blog.xulay.com/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://xulay.com/2017/09/07/hello-world/"/>
-    <id>http://xulay.com/2017/09/07/hello-world/</id>
+    <link href="http://blog.xulay.com/2017/09/07/hello-world/"/>
+    <id>http://blog.xulay.com/2017/09/07/hello-world/</id>
     <published>2017-09-07T07:34:34.866Z</published>
     <updated>2017-09-09T03:15:52.082Z</updated>
     
@@ -107,7 +107,7 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://xulay.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://blog.xulay.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
