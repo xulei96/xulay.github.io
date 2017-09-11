@@ -22,7 +22,7 @@
 <meta property="og:image" content="http://oquhznm5y.bkt.clouddn.com/image/setBlog/SetBlog-4.png">
 <meta property="og:image" content="http://oquhznm5y.bkt.clouddn.com/image/setBlog/SetBlog-5.png">
 <meta property="og:image" content="http://oquhznm5y.bkt.clouddn.com/image/setBlog/SetBlog-6.png">
-<meta property="og:updated_time" content="2017-09-09T05:18:40.906Z">
+<meta property="og:updated_time" content="2017-09-11T00:39:19.553Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo+GitHub Pages 搭建博客详细教程">
 <meta name="twitter:description" content="这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。作为一个前端小白，虽说是个码农，但是一开始照着网上的各种教程去搭建的时候，还是挺混乱的，第一次搭建时花了两三天时间去研究才勉强弄好，搭建后也就放着没再去写博客，这几天想着继续搭建博客来记录平时自己遇到的问题，于是再次操作了一遍，这次就顺溜多了，在此参照网上的一些教程，总结一下搭建过程。">
@@ -275,7 +275,7 @@
 <li>点击添加解析，设置记录类型为CNAME，主机记录为blog（这里为二级域名的前缀，可以任意值），解析线路默认，记录值为 你的博客地址（例如xulay.github.io）。(如果这样设置，访问地址则为blog.xulay.com)<br><img src="http://oquhznm5y.bkt.clouddn.com/image/setBlog/SetBlog-6.png" alt=""><br>按照如上设置完成之后， 可能不会立即生效，等个几分钟，在./source目录下新建文件CNAME（没有后缀名），文件中写上我们要绑定的域名，例如: xulay.com(对应上面第三点操作)，或者blog.xulay.com（对应上面第四点操作）然后执行（很重要的，别忘记了）<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>这时就可以通过<a href="http://xulay.com">http://xulay.com</a>（<a href="http://blog.xulay.com" target="_blank" rel="external">blog.xulay.com</a>）访问我们的博客了</p>
+<p>这时就可以通过<a href="http://xulay.com" target="_blank" rel="external">http://xulay.com</a>（<a href="http://blog.xulay.com">blog.xulay.com</a>）访问我们的博客了</p>
 <h2 id="七、提示"><a href="#七、提示" class="headerlink" title="七、提示"></a>七、提示</h2><p>hexo现在支持更加简单的命令格式了，比如：</p>
 <ul>
 <li>hexo g == hexo generate</li>
