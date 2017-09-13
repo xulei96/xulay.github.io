@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="徐磊的博客">
 <meta property="og:description" content="最近在研究Hexo-GitHub来搭建博客，Hexo有许多高端大气的主题供我们选择，可以去https://github.com/hexojs/hexo/wiki/Themes选择自己喜欢的主题更换，这里我选择的是yilia，本篇博客是对yilia主题的一些优化。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-13T07:37:18.621Z">
+<meta property="og:updated_time" content="2017-09-13T07:39:09.321Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo主题-yilia优化">
 <meta name="twitter:description" content="最近在研究Hexo-GitHub来搭建博客，Hexo有许多高端大气的主题供我们选择，可以去https://github.com/hexojs/hexo/wiki/Themes选择自己喜欢的主题更换，这里我选择的是yilia，本篇博客是对yilia主题的一些优化。">
@@ -216,7 +216,7 @@
 <h2 id="文章模板"><a href="#文章模板" class="headerlink" title="文章模板"></a>文章模板</h2><p>打开hexo/scaffolds/post.md，可以看到：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">tags:</div><div class="line">---</div></pre></td></tr></table></figure></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">tags:</div><div class="line">categories: </div><div class="line">toc: <span class="literal">true</span></div><div class="line">---</div></pre></td></tr></table></figure>
 <h2 id="鼠标点击小红心的设置"><a href="#鼠标点击小红心的设置" class="headerlink" title="鼠标点击小红心的设置"></a>鼠标点击小红心的设置</h2><ol>
-<li>将 <a href="http://blog.xulay.com/love.js">love.js</a> 文件添加到 hexo/themes/yilia/source 文件目录下。</li>
+<li>将 <a href="https://github.com/xulay/xulay.github.io/blob/master/love.js" target="_blank" rel="external">love.js</a> 文件下载添加到 hexo/themes/yilia/source 文件目录下。</li>
 <li>找到 hexo/themes/yilia/layout/_partial/footer.ejs 文件， 在文件的最后，  添加以下代码：<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!--页面点击小红心--&gt;</div><div class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/love.js"</span>&gt;&lt;/script&gt;</div></pre></td></tr></table></figure>
 </li>
 </ol>
