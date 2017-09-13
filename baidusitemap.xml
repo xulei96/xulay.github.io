@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://blog.xulay.com/2017/09/09/Hexo%E4%B8%BB%E9%A2%98-yilia%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2017-09-13T07:35:06.824Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo主题-yilia优化</title>
+        <pubTime>2017-09-09T06:44:19.000Z</pubTime>
+        
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://blog.xulay.com/categories/hexo/"/>
+          
+             
+              <breadCrumb title="yilia" url="http://blog.xulay.com/categories/hexo/yilia/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.xulay.com/2017/09/11/Hexo%E5%8D%9A%E5%AE%A2%E4%B9%8Bseo%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2017-09-12T03:00:46.311Z</lastmod>
     <data>
@@ -67,29 +90,6 @@
            
              
               <breadCrumb title="hexo" url="http://blog.xulay.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.xulay.com/2017/09/09/Hexo%E4%B8%BB%E9%A2%98-yilia%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2017-09-09T08:14:52.869Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo主题-yilia优化</title>
-        <pubTime>2017-09-09T06:44:19.000Z</pubTime>
-        
-        <tag>技术</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://blog.xulay.com/categories/hexo/"/>
-          
-             
-              <breadCrumb title="yilia" url="http://blog.xulay.com/categories/hexo/yilia/"/>
           
         </display>
     </data>
